@@ -50,7 +50,7 @@ You are most welcome to collaborate and enhance the existing code base.
 <dependency>
     <groupId>com.ebay.api</groupId>
     <artifactId>FeedV1SDK</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 </dependency>
 ```
 
