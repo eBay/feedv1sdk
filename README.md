@@ -48,8 +48,8 @@ You are most welcome to collaborate and enhance the existing code base.
 ```
 <!-- https://mvnrepository.com/artifact/com.ebay.api/feed-sdk -->
 <dependency>
-    <groupId>com.ebay.api</groupId>
-    <artifactId>FeedV1SDK</artifactId>
+    <groupId>com.ebay.developer</groupId>
+    <artifactId>feedv1-api-sdk</artifactId>
     <version>1.0.0-RELEASE</version>
 </dependency>
 ```
