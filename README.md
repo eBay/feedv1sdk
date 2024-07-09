@@ -62,7 +62,7 @@ For setting up the project in your local environment
 * Run mvn clean install.
   This should generate an uber jar with the following naming convention
 
-__feed-sdk-{version}-uber.jar__
+__feedv1-api-sdk-{version}-uber.jar__
 
 ## Downloading feed files
 
