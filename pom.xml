@@ -7,7 +7,7 @@
 
     <groupId>com.ebay.developer</groupId>
     <artifactId>feedv1-api-sdk-parent</artifactId>
-    <version>0.0.1-SNAPSHOT</version>   <!-- never change -->
+    <version>1.0.0-RELEASE</version>   <!-- never change -->
     <packaging>pom</packaging>
     <name>feedv1-api-sdk-parent</name>
     <description>This is the parent module for the submodules SDK and examples</description>

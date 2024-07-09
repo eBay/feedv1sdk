@@ -50,7 +50,7 @@ You are most welcome to collaborate and enhance the existing code base.
 <dependency>
     <groupId>com.ebay.api</groupId>
     <artifactId>FeedV1SDK</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-RELEASE</version>
 </dependency>
 ```
 
@@ -62,7 +62,19 @@ For setting up the project in your local environment
 * Run mvn clean install.
   This should generate an uber jar with the following naming convention
 
-__feedv1-api-sdk-{version}-uber.jar__
+__feed-sdk-{version}-uber.jar__
+
+You might need to add the below in VM options
+  --add-exports=java.base/sun.nio.ch=ALL-UNNAMED
+  --add-opens=java.base/java.lang=ALL-UNNAMED
+  --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+  --add-opens=java.base/java.io=ALL-UNNAMED
+  --add-opens=java.base/java.util=ALL-UNNAMED
+  --add-opens
+java.desktop/java.awt.font=ALL-UNNAMED
+  --add-opens
+java.base/java.text=ALL-UNNAMED
+  --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED
 
 ## Downloading feed files
 
@@ -76,7 +88,7 @@ To download a feed file of a particular cateogry and marketplace, the following 
 ```
 CredentialUtil.load(new FileInputStream(path));
 feedV1SDK.filterByItem(rangeValue, queueSize, "CURATED_ITEM_FEED", categoryId, marketplaceId, "1234567890", zippedOutputFilename, unzippedOutputFilename, filteredOutputFilename);
-    
+
 ```
 
 The __GetFeedResponse.filePath__ denotes the location where the file was downloaded.
@@ -121,7 +133,7 @@ The following sections describe the different ways in which the SDK can be used
 
 All the examples are located [__here__](https://github.com/eBay/feedv1sdk/tree/main/feedv1-api-sdk-examples/src/main/java/com/ebay/feed/examples)
 
-* [Filter by item location](https://github.com/eBay/FeedSDK/tree/master/src/main/java/com/ebay/feed/examples/FeedV1SDKUsage.java)
+* [Filter by item](https://github.com/ranallurebay/feedv1sdk/blob/main/feedv1-api-sdk-examples/src/main/java/com/ebay/feed/examples/FeedV1SDKUsage.java)
 
 ## Important notes
 
