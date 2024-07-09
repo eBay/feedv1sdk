@@ -119,7 +119,7 @@ The following sections describe the different ways in which the SDK can be used
 
 #### Examples
 
-All the examples are located [__here__](https://github.com/eBay/FeedV1SDK/tree/master/src/main/java/com/ebay/feed/examples)
+All the examples are located [__here__](https://github.com/eBay/feedv1sdk/tree/main/feedv1-api-sdk-examples/src/main/java/com/ebay/feed/examples)
 
 * [Filter by item location](https://github.com/eBay/FeedSDK/tree/master/src/main/java/com/ebay/feed/examples/FeedV1SDKUsage.java)
 
